@@ -7,7 +7,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-from orbit_simulation import integrate_orbit
+from orbit_methods import integrate_orbit
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

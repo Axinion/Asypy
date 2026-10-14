@@ -22,10 +22,8 @@ Then run:
 .venv/bin/python src/orbit_simulation.py
 .venv/bin/python src/orbit_experiments.py
 .venv/bin/python src/timestep_experiment.py
-.venv/bin/python src/method_comparison.py
-.venv/bin/python src/elliptical_validation.py
 ```
 
 If your current Python already has those packages, `python3 src/orbit_simulation.py` and the other scripts work directly. Their default outputs go to `plots/` and `data/`, regardless of the shell's current directory.
 
-The folder name is the requested experiment label. The main orbit script uses **velocity Verlet** (kick-drift-kick leapfrog). The method comparison script also implements **forward Euler** and **Euler-Cromer** with identical initial conditions, timestep, and duration. The reports describe the method used in each experiment.
+The folder name is the requested experiment label. The current code uses **velocity Verlet**, which is a different integration method from Euler-Cromer. The reports describe the method actually used.
