@@ -11,3 +11,7 @@ The folder name is the experiment label; the current numerical integrator is vel
 ## Integrator comparison
 
 The [Integrator Comparison Experiment](Integrator%20Comparison%20Experiment/README.md) is a separate, self-contained experiment comparing forward Euler, Euler-Cromer, and leapfrog. It includes period, apsis-speed, and swept-area checks.
+
+## Two moving bodies
+
+The [Two-Body Orbit Experiment](Two-Body%20Orbit%20Experiment/README.md) lets both masses move under their mutual gravitational force and checks conservation of energy, angular momentum, linear momentum, and the center of mass.
