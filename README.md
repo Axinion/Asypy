@@ -15,3 +15,7 @@ The [Integrator Comparison Experiment](Integrator%20Comparison%20Experiment/READ
 ## Two moving bodies
 
 The [Two-Body Orbit Experiment](Two-Body%20Orbit%20Experiment/README.md) lets both masses move under their mutual gravitational force and checks conservation of energy, angular momentum, linear momentum, and the center of mass.
+
+## Three moving bodies
+
+The [Three-Body Experiment](Three-Body%20Experiment/README.md) generalizes the force calculation to direct N-body gravity. It includes star-and-planets, binary-star, and small-perturbation experiments with plots, CSV data, and a report.
