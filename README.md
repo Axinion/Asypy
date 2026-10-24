@@ -19,3 +19,7 @@ The [Two-Body Orbit Experiment](Two-Body%20Orbit%20Experiment/README.md) lets bo
 ## Three moving bodies
 
 The [Three-Body Experiment](Three-Body%20Experiment/README.md) generalizes the force calculation to direct N-body gravity. It includes star-and-planets, binary-star, and small-perturbation experiments with plots, CSV data, and a report.
+
+## Simple harmonic motion
+
+The [SHM Experiment](SHM%20Experiment/README.md) uses Euler-Cromer for a mass-spring oscillator and compares its motion with the exact cosine solution while tracking kinetic, potential, and total energy.
